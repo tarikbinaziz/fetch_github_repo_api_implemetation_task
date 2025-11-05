@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'routes.dart';
-import 'app_binding.dart';
+
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -24,9 +23,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       title: 'GitHub Repos',
-      initialBinding: AppBinding(),
-      initialRoute: Routes.login,
-      getPages: AppPages.pages,
       theme: ThemeData.light(),
       darkTheme: ThemeData.dark(),
       themeMode: initialTheme,
