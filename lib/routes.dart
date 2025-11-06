@@ -3,7 +3,6 @@ import 'package:github_repos_app/views/home_page.dart';
 import 'package:github_repos_app/views/login_page.dart';
 import 'package:github_repos_app/views/repo_detail_page.dart';
 
-
 class Routes {
   static const login = '/';
   static const home = '/home';
