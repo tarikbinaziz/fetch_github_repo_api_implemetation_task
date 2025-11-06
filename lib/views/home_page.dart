@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:github_repos_app/routes.dart';
+import 'package:github_repos_app/widgets/repo_grid_tile.dart';
+import 'package:github_repos_app/widgets/repo_list_tile.dart';
 import '../controllers/auth_controller.dart';
 import '../controllers/repos_controller.dart';
-
-import 'package:intl/intl.dart';
 
 
 class HomePage extends StatelessWidget {
